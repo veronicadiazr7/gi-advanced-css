@@ -1,0 +1,36 @@
+body {
+  background-color: #c8b6b6;
+  box-sizing: border-box;
+  width: 820px;
+  height: 820px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding-top: 60px;
+}
+h1 {
+  text-align: center;
+  margin: auto;
+  padding-bottom: 20px;
+}
+.checkeredboard {
+  position: absolute;
+  display: grid;
+  background-position: 0 0, 12vmin 12vmin;
+  grid-template-columns: repeat(8, 12vmin);
+  grid-template-rows: repeat(8, 12vmin);
+}
+.grid {
+  float: left;
+  width: 100px;
+  height: 100px;
+  vertical-align: middle;
+  background-color: rgb(90, 12, 12);
+}
+.grid-b {
+  float: left;
+  width: 100px;
+  height: 100px;
+  vertical-align: middle;
+  background-color: rgb(228, 207, 207);
+}
